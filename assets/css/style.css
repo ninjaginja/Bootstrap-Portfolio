@@ -31,6 +31,10 @@
   font-size: 18px;
 }
 
+.navbar-inverse .navbar-nav>li>a:hover {
+  opacity: .8;
+}
+
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
   background-color: #00b3bc;
   border: 1px solid #fff;
@@ -70,6 +74,10 @@ p.lead {
   color: #050630;
 }
 
+a:hover {
+  opacity: .8;
+}
+
 /* SIDEBAR STYLING */
 
 .panel-default>.panel-heading {
@@ -100,6 +108,10 @@ h3.panel-title {
   padding: 5px;
 }
 
+.social-icon:hover {
+  opacity: .8;
+}
+
 /* END SIDEBAR STYLING */
 
 /* FORM STYLING */
@@ -110,6 +122,11 @@ h3.panel-title {
   border-radius: 0;
   padding: 10px 20px 10px 20px;
   margin-bottom: 20px;
+}
+
+.btn-primary:hover {
+  background-color: #00b3bc;
+  opacity: .8;
 }
 
 label {
